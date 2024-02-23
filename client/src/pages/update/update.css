@@ -1,0 +1,34 @@
+.containerupdate {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 80px;
+  }
+  
+  .containerupdate div {
+    margin-bottom: 10px;
+  }
+  
+  .containerupdate input[type="text"],
+  .containerupdate input[type="email"],
+  .containerupdate input[type="password"],
+  .containerupdate button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border don't increase width */
+  }
+  
+  .containerupdate button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .containerupdate button:hover {
+    background-color: #0056b3;
+  }
+  
